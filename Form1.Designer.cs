@@ -89,6 +89,9 @@ namespace WeatherForecast
             "Cameroon",
             "Canada",
             "Central African Rep",
+            "Chad",
+            "Chile",
+            "China",
             "Colombia",
             "Comoros",
             "Congo",
@@ -97,9 +100,6 @@ namespace WeatherForecast
             "Cuba",
             "Cyprus",
             "Czech Republic",
-            "Chad",
-            "Chile",
-            "China",
             "Denmark",
             "Djibouti",
             "Dominica",
@@ -170,8 +170,8 @@ namespace WeatherForecast
             "Mexico",
             "Micronesia",
             "Moldova",
-            "Montenegro",
             "Mongolia",
+            "Montenegro",
             "Morocco",
             "Mozambique",
             "Namibia",
@@ -190,9 +190,9 @@ namespace WeatherForecast
             "Papua New Guinea",
             "Paraguay",
             "Peru",
+            "Philippines",
             "Poland",
             "Portugal",
-            "Philippines",
             "Qatar",
             "Romania",
             "Russian Federation",
@@ -222,13 +222,13 @@ namespace WeatherForecast
             "Taiwan",
             "Tajikistan",
             "Tanzania",
+            "Thailand",
             "Togo",
             "Tonga",
             "Tunisia",
             "Turkey",
             "Turkmenistan",
             "Tuvalu",
-            "Thailand",
             "Uganda",
             "Ukraine",
             "United Arab Emirates",
@@ -243,7 +243,7 @@ namespace WeatherForecast
             "Zambia",
             "Zimbabwe"});
             this.cboxCountry.Location = new System.Drawing.Point(38, 37);
-            this.cboxCountry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxCountry.Margin = new System.Windows.Forms.Padding(2);
             this.cboxCountry.Name = "cboxCountry";
             this.cboxCountry.Size = new System.Drawing.Size(146, 21);
             this.cboxCountry.Sorted = true;
@@ -258,7 +258,7 @@ namespace WeatherForecast
             this.cboxCity.ForeColor = System.Drawing.Color.Navy;
             this.cboxCity.FormattingEnabled = true;
             this.cboxCity.Location = new System.Drawing.Point(194, 37);
-            this.cboxCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxCity.Margin = new System.Windows.Forms.Padding(2);
             this.cboxCity.Name = "cboxCity";
             this.cboxCity.Size = new System.Drawing.Size(146, 21);
             this.cboxCity.Sorted = true;
@@ -290,7 +290,7 @@ namespace WeatherForecast
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(9, 68);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(359, 19);
             this.progressBar1.TabIndex = 3;
@@ -311,9 +311,9 @@ namespace WeatherForecast
             this.gboxWeather.Controls.Add(this.lblDegree);
             this.gboxWeather.Controls.Add(this.pboxWeather);
             this.gboxWeather.Location = new System.Drawing.Point(9, 92);
-            this.gboxWeather.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gboxWeather.Margin = new System.Windows.Forms.Padding(2);
             this.gboxWeather.Name = "gboxWeather";
-            this.gboxWeather.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.gboxWeather.Padding = new System.Windows.Forms.Padding(2);
             this.gboxWeather.Size = new System.Drawing.Size(359, 284);
             this.gboxWeather.TabIndex = 8;
             this.gboxWeather.TabStop = false;
@@ -454,8 +454,8 @@ namespace WeatherForecast
             // pboxWeather
             // 
             this.pboxWeather.Image = global::WeatherForecast.Properties.Resources.clear;
-            this.pboxWeather.Location = new System.Drawing.Point(15, 17);
-            this.pboxWeather.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pboxWeather.Location = new System.Drawing.Point(15, 38);
+            this.pboxWeather.Margin = new System.Windows.Forms.Padding(2);
             this.pboxWeather.Name = "pboxWeather";
             this.pboxWeather.Size = new System.Drawing.Size(160, 154);
             this.pboxWeather.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -476,7 +476,7 @@ namespace WeatherForecast
             this.Controls.Add(this.cboxCountry);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
